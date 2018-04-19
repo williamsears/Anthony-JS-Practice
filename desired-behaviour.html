@@ -1,0 +1,532 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>CAE Healthcare</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js?ckcachebust=545668899"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=545668899"></script>
+    <![endif]-->
+
+    <link type="text/css" href="https://www.caehealthcare.com/static/html/assets/css/bootstrap.min.css?ckcachebust=545668899" rel="stylesheet">
+    <link type="text/css" href="https://www.caehealthcare.com/static/html/assets/css/font-awesome.min.css?ckcachebust=545668899" rel="stylesheet">
+    <link type="text/css" href="https://www.caehealthcare.com/static/html/assets/css/owl.carousel.css?ckcachebust=545668899" rel="stylesheet">
+
+    <link type="text/css" href="https://www.caehealthcare.com/static/html/assets/css/style.css?ckcachebust=545668899" rel="stylesheet">
+    <link type="text/css" href="https://www.caehealthcare.com/static/html/assets/css/nav.css?ckcachebust=545668899" rel="stylesheet" />
+
+    <link type="text/css" href="https://www.caehealthcare.com/assets/branding/css/app.css?ckcachebust=545668899" rel="stylesheet">
+
+    <link type="text/css" href="https://shop.cae.com/assets/css/ecomm.css?ckcachebust=23e63ae0c7a0df3d623b1c940badbc20" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-latest.min.js?ckcachebust=545668899"></script>
+    <script src="https://www.caehealthcare.com/static/html/assets/js/owl.carousel.min.js?ckcachebust=545668899"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-default" id="main_menubar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="navHome">
+                    <div class="col-md-2 navbarMobile hidden-md hidden-lg">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar_mobile">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <ul class="nav nav-pills navMobileTop hidden-md hidden-lg">
+                                <li><a href="/fr" class="lang langswitch">FR</a></li>
+                            </ul>
+                            <a class="navbar-brand" href="/">
+                                <img src="https://www.caehealthcare.com/assets/branding/images/cae-context.svg" alt="CAE" class="img-responsive retina" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 collapse navbar-collapse" id="navbar_mobile">
+                        <div class="rightNav hidden-md hidden-lg">
+                            <ul class="nav nav-pills">
+                                <li class="borderBottom">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="keywords" placeholder="Enter search terms...">
+                                        <span class="input-group-btn"><button class="btn darkBtn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button></span>
+                                    </div>
+                                </li>
+
+                                <li class="dropdown-onhover"><a href="https://shop.cae.com/?ACT=13&amp;csrf_token=6e988cfc94405a5114a2757ba313121262419dfa">Logout</a></li>
+                                <li class="dropdown-onhover"><a href="#">My Account<span class="icon"><img src="https://shop.cae.com/assets/images/account-dark.svg" alt="My Account" width="14" /></span></a></li>
+
+                                <li class="dropdown-onhover"><a href="https://shop.cae.com/shopping-cart/">Cart<span class="icon"><img src="https://shop.cae.com/assets/images/cart-dark.svg" alt="Cart" width="14" /></span></a></li>
+                            </ul>
+                        </div>
+                        <ul class="nav nav-pills navbar-nav">
+                            <li class="dropdown-onhover">
+                                <a data-toggle="dropdown" href="https://caehealthcare.com/" class="dropdown-toggle" aria-expanded="true">&laquo; Return to caehealthcare.com</a>
+                            </li>
+                            <li class="dropdown-onhover active">
+                                <a data-toggle="dropdown" href="#" class="dropdown-toggle" aria-expanded="true">CAE Juno</a>
+                            </li>
+                            <li class="dropdown-onhover">
+                                <a data-toggle="dropdown" href="#" class="dropdown-toggle" aria-expanded="true">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 collapse navbar-collapse text-right hidden-sm hidden-xs">
+                        <ul class="nav nav-pills">
+
+                          <li class="dropdown-onhover"><a href="https://shop.cae.com/?ACT=13&amp;csrf_token=6e988cfc94405a5114a2757ba313121262419dfa">Logout</a></li>
+                          <li class="dropdown-onhover"><a href="#">My Account<span class="icon"><img src="https://shop.cae.com/assets/images/account.svg" alt="My Account" width="14" /></span></a></li>
+
+                            <li class="dropdown-onhover "><a href="https://shop.cae.com/shopping-cart/">Cart <span class="icon"><img src="https://shop.cae.com/assets/images/cart.svg" alt="Cart" width="14" /></span></a></li>
+                          <li><a href="/fr" class="lang langswitch">FR</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+<nav class="contextual hidden-xs hidden-sm">
+  <div class="logo">
+      <a href="https://shop.cae.com/"><img src="https://www.caehealthcare.com/assets/branding/images/cae-context.svg" alt="CAE"></a>
+  </div>
+
+
+  <div class="menu">
+      <ul class="navList">
+          <li class="root"><a href="https://shop.cae.com/"><span>CAE Juno</span></a></li>
+          <li class="active"><a href="https://shop.cae.com/" class="top-nav-link">Packages</a></li>
+          <li class=""><a href="https://shop.cae.com/modules/" class="top-nav-link">Modules</a></li>
+          <li class=""><a href="https://shop.cae.com/standalone-add-ons/" class="top-nav-link">Standalone Add-ons</a></li>
+      </ul>
+  </div>
+
+
+</nav>
+
+<div class="textHeader">
+    <div class="leftCol">
+
+      <h1 class="margT10">CAE Juno</h1>
+      <h2><p>Lorem ipsum dolor sit amet, eos an malorum expetenda imperdiet, eos ad delicata assentior, vim graeci prompta impedit te.</p></h2>
+
+    </div>
+</div>
+<section>
+    <div class="mainContent full">
+        <div class="ecomm">
+            <div class="leftCol">
+                <img src="https://shop.cae.com/assets/images/cae-juno.jpg" class="img-responsive" alt="CAE Juno" />
+                <h3>Overview</h3>
+                <div class="body">
+
+                    <p>Lorem ipsum dolor sit amet, eos an malorum expetenda imperdiet, eos ad delicata assentior, vim graeci prompta impedit te. Ex salutandi expetenda vim. Lorem euismod mandamus an per, an ius aeque doctus menandri. Est option persecuti te, ea omnium sadipscing philosophia eam. Vim no commodo dignissim scripserit, mel ad summo accommodare, veritus repudiare sadipscing ad cum. Tota assum te sea. Usu epicuri accommodare ne.</p>
+
+<p>Lorem ipsum dolor sit amet, eos an malorum expetenda imperdiet, eos ad delicata assentior, vim graeci prompta impedit te. Ex salutandi expetenda vim. Lorem euismod mandamus an per, an ius aeque doctus menandri. Est option persecuti te, ea omnium sadipscing philosophia eam. Vim no commodo dignissim scripserit, mel ad summo accommodare, veritus repudiare sadipscing ad cum. Tota assum te sea. Usu epicuri accommodare ne.</p>
+
+                </div>
+            </div>
+            <div class="rightCol">
+                <div class="packageWrapper noBox">
+                    <div class="package">
+                        <div>
+                            <h4 class="upper">Base</h4>
+                            <p>CAE Juno Manikin w/IV Arm</p>
+
+<p>Right Articulated Arm</p>
+                        </div>
+
+                        <div>
+                            <a href="https://shop.cae.com/">Change Package</a>
+                        </div>
+
+                    </div>
+                </div>
+                <hr />
+                <form id="add_to_cart_form" method="post" action=""  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="26" />
+<input type="hidden" name="RET" value="https://shop.cae.com/juno-base-package" />
+<input type="hidden" name="URI" value="juno-base-package" />
+<input type="hidden" name="FRM" value="92055b65156634ba67bc2257831254d0" />
+<input type="hidden" name="entry_id" value="38" />
+<input type="hidden" name="return" value="https://shop.cae.com/modules/" />
+<input type="hidden" name="AUP" value="ev1xA7zl0Q4TieABydiSLvnQdORc64H3d5pstEwza90=" />
+<input type="hidden" name="AUW" value="CiSOJy5ev8g9fRPvndwKMz/5BHfFY2g+QaWIx8emH4U=" />
+<input type="hidden" name="AUS" value="gBwOkTxfwKmARK6nDLcYmHBKxqDzP6faXkHJoOVvRH0=" />
+<input type="hidden" name="OTF" value="ZT9KPfHFNkB2/UXS3rXbs/OXBt0bSqODcevPRSaHXXM=" />
+<input type="hidden" name="LIC" value="IcJOsCtg+0TzHzKm+GfUwM9sfFHuLecoDfrYfn5/yaM=" />
+<input type="hidden" name="ERR" value="rgTFpG8SGrQUFqUYq2vt8NP3msPq4IdJz7ypPBazz7w=" />
+<input type="hidden" name="RLS" value="G5HbiDAtj+Azdo9QEKsJLbEnRCQ0DJlfKt2D6MgA5xM=" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="6e988cfc94405a5114a2757ba313121262419dfa" />
+</div>
+
+
+
+
+                      <h4>Choose Skin Configuration</h4><br>
+                  <select class="form-control" name="item_options[basic_configurations]">
+
+                    <option  value="medium_skin">
+                        Medium Skin ($0.00)
+                    </option>
+
+                    <option  value="dark_skin">
+                        Dark Skin ($0.00)
+                    </option>
+
+                  </select>
+
+                <div class="padFifteen"></div>
+
+                <hr>
+
+
+                <h4>Available Add-ons</h4>
+                <a href="#" id="openAddons">Which add-ons are right for you?</a>
+                <div class="padThirty"></div>
+                <div class="packageWrapper">
+
+
+
+                  <label class="package">
+                      <div>
+                        <input type="checkbox" name="epack_config" value="epack"  data-price="$6,995.00">
+                        <input type="hidden" name="item_options[epack_configuration]" value="">
+                      </div>
+                      <div class="grow">
+                          <h4>ePack</h4>
+                          <p>NIBP Arm + Electronics</p>
+                      </div>
+                      <div>
+                          <p class="price">$6,995.00</p>
+                      </div>
+                  </label>
+
+
+
+
+
+
+                  <label class="package">
+                      <div>
+                        <input type="checkbox" name="tablet_config" data-price="$755.00" value="tablet">
+                        <input type="hidden" name="item_options[tablet_configuration]" value="">
+                      </div>
+                      <div class="grow">
+                          <h4>Tablet</h4>
+                          <p>Tablet details here</p>
+                      </div>
+                      <div>
+                          <p class="price">$755.00</p>
+                      </div>
+                  </label>
+
+
+
+                </div>
+
+                <input type="hidden" name="item_options[warranty_configurations]" value="">
+                <div class="padFifteen"></div>
+                <div class="warrantySelection" style="display:none">
+                <h4>Warranty Plan</h4>
+                <hr class="margFifteen" />
+
+
+
+                <div class="text-right warrantyPlan" style="display:none" data-type="basic_warranty" data-price="$200.00">
+                    <h4>Basic Warranty&emsp;&emsp;&emsp;$200.00</h4>
+                    <a href="#" class="removeWarranty">Remove</a>
+                </div>
+
+                <div class="text-right warrantyPlan" style="display:none" data-type="full_warranty" data-price="$1,000.00">
+                    <h4>Full Warranty&emsp;&emsp;&emsp;$1,000.00</h4>
+                    <a href="#" class="removeWarranty">Remove</a>
+                </div>
+
+
+
+                <hr class="margFifteen" />
+                </div>
+                <div class="text-right">
+                    <p class="total" id="total">$3,995.00</p>
+                    <hr />
+                    <a href="#" class="warranty" id="openWarranty"><span class="icon"><img src="https://shop.cae.com/assets/images/plus.svg" alt="Plus" width="22" /></span>Add Warranty</a>
+                    <p class="margFifteen"></p>
+                    <a href="#" class="btn blue" id="add_to_cart">Add to Cart</a>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="ft-modal ecomm authenticate" id="ft-authenticate">
+        <div class="ft-modal-content">
+            <div class="ft-modal-header">
+                <a class="ft-modal-close closeModal" href="#"><span>Close</span></a>
+                <div class="header">
+                    <div class="logo">
+                        <a href="#"><img src="http://www.caehealthcare.com/assets/branding/images/cae-context.svg" alt="CAE"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-modal-body">
+                <div class="textHeader">
+                    <div class="full">
+                        <h1>Authenticate Yourself</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                        <div class="padThirty"></div>
+                        <div class="mainContent threeQuarter noPadding">
+                            <div class="ecomm noFlex">
+                                <div class="formContainer">
+                                    <form method="post" action=""  >
+<div class='hiddenFields'>
+<input type="hidden" name="visitor_action" value="login" />
+<input type="hidden" name="RET" value="https://shop.cae.com/juno-base-package" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="6e988cfc94405a5114a2757ba313121262419dfa" />
+</div>
+
+
+                                        <h2>Login Information</h2>
+                                        <label>Email</label>
+                                        <input class="form-control" type="email" id="username" name="username">
+                                        <label>Password</label>
+                                        <input class="form-control" type="text" id="password" name="password" required="">
+                                        <a href="forgot-password.html">Forgot Password</a>
+                                        <div class="padSixty"></div>
+                                        <a href="#" class="btn blue loginButton">Login</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer>
+    <div id="footerBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 text-left">
+                    <p><span class="upper">CAE Healthcare 2018.</span> All rights reserved.<span class="hidden-xs">&nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs" /><a href="https://www.cae.com/legal-notice/">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Contact Us</a></p>
+                </div>
+                <div class="col-sm-4 text-right logoFooter">
+                    <img src="https://www.caehealthcare.com/media/images/cae-logo-2x.png" alt="CAE Healthcare" width="70px" />
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.loginModal').on('click', function(e){
+      e.preventDefault()
+      $('#ft-authenticate').css({opacity: 0, display: 'block', visibility: 'visible'}).animate({opacity: 1}, 200);
+      $('body').addClass('noscroll');
+    })
+    $('.loginButton').on('click', function(e){
+      e.preventDefault()
+      $(this).closest('form').submit()
+    })
+    $('.closeModal').on('click', function(e){
+      e.preventDefault()
+      var that = this;
+      $(this).closest('.ft-modal').animate({opacity: 0}, 200, function(){
+          setTimeout(function(){$(that).closest('.ft-modal').css("display","none");}, 200)
+          $('body').removeClass('noscroll');
+      });
+    })
+  })
+</script>
+<script src="https://unpkg.com/sweetalert2@7.18.0/dist/sweetalert2.all.js" charset="utf-8"></script>
+<script src="https://www.caehealthcare.com/static/html/assets/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js" charset="utf-8"></script>
+
+
+
+
+<!-- ADDONS MODAL -->
+<div class="ft-modal ecomm" id="ft-addons">
+    <div class="ft-modal-content">
+        <div class="ft-modal-header">
+            <a class="ft-modal-close" href="#" id="closeAddons"><span>Close</span></a>
+            <div class="header">
+                <div class="logo">
+                    <a href="#"><img src="http://www.caehealthcare.com/assets/branding/images/cae-context.svg" alt="CAE" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="ft-modal-body">
+            <div class="textHeader">
+                <div class="full">
+                    <h1>Which add-ons are right for me</h1>
+                    <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
+                    <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
+                    <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- WARRANTY MODAL -->
+<div class="ft-modal ecomm" id="ft-warranty">
+    <div class="ft-modal-content">
+        <div class="ft-modal-header">
+            <a class="ft-modal-close closeModal" href="#"><span>Close</span></a>
+            <div class="header">
+                <div class="logo">
+                    <a href="#"><img src="http://www.caehealthcare.com/assets/branding/images/cae-context.svg" alt="CAE" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="ft-modal-body">
+            <div class="textHeader">
+                <div class="full">
+                    <h1>Warranty</h1>
+                    <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
+                    <div href="#" class="packageWrapper">
+                        <label>
+                            <div class="package">
+                                <div><input type="radio" id="valuePlan" name="warranty" value="basic_warranty"></div>
+                                <div class="grow">
+                                    <h4>Basic Warranty</h4>
+                                </div>
+                                <div>
+                                    <p class="price">$200</p>
+                                </div>
+                            </div>
+                            <p class="small">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
+                        </label>
+                        <div class="padThirty"></div>
+                        <label>
+                            <div class="package">
+                                <div><input type="radio" id="premiumPlan" name="warranty" value="full_warranty"></div>
+                                <div class="grow">
+                                    <h4>Full Warranty</h4>
+                                </div>
+                                <div>
+                                    <p class="price">$1,000</p>
+                                </div>
+                            </div>
+                            <p class="small">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
+                        </label>
+                    </div>
+                    <a href="#" class="btn grey disabled" id="addWarranty">Add Warranty</a>
+                    <a href="#" class="btn black small closeModal">No Thanks</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('input[type="checkbox"]').on('change', function(){
+      if ($(this).is(':checked')){
+        var price = parseFloat($(this).attr('data-price').replace('$', '').replace(',',''))
+        var total = parseFloat($('#total').text().replace('$', '').replace(',',''))
+        $(this).siblings('input').val($(this).val())
+        $('#total').text('$'+(price+total).toFixed(2))
+      }else{
+        var price = parseFloat($(this).attr('data-price').replace('$', '').replace(',',''))
+        var total = parseFloat($('#total').text().replace('$', '').replace(',',''))
+        $(this).siblings('input').val('')
+        $('#total').text('$'+(total-price).toFixed(2))
+      }
+    })
+    $('input[name="warranty"]').on('change', function(){
+      $('#addWarranty').removeClass('grey disabled').addClass('blue')
+      $('#addWarranty').not('.disabled').on('click', function(e){
+        e.preventDefault();
+        $('input[name="item_options[warranty_configurations]"]').val($('input[name="warranty"]:checked').val())
+        $(this).closest('.ft-modal').animate({opacity: 0}, 200, function(){
+            setTimeout(function(){$('#ft-warranty').css("display","none");}, 200)
+            $('body').removeClass('noscroll');
+        });
+        $('#openWarranty').hide()
+        $('.warrantySelection').show()
+        $('.warrantyPlan[data-type="'+$('input[name="warranty"]:checked').val()+'"]').show()
+        var price = parseFloat($('.warrantyPlan[data-type="'+$('input[name="warranty"]:checked').val()+'"]').attr('data-price').replace('$', '').replace(',',''))
+        var total = parseFloat($('#total').text().replace('$', '').replace(',',''))
+        $('#total').text('$'+(price+total).toFixed(2))
+      })
+    })
+
+    $('.removeWarranty').on('click', function(e){
+      e.preventDefault()
+      $('input[name="item_options[warranty_configurations]"]').val('')
+      var price = parseFloat($(this).parents('.warrantyPlan').attr('data-price').replace('$', '').replace(',',''))
+      var total = parseFloat($('#total').text().replace('$', '').replace(',',''))
+      $('#total').text('$'+(total-price).toFixed(2))
+      $('#openWarranty').show()
+      $(this).parent('.warrantyPlan').hide()
+      $('.warrantySelection').hide()
+      $('#addWarranty').removeClass('blue').addClass('grey disabled').unbind('click')
+      $('input[name="warranty"]').each(function(){
+        $(this).attr('checked', false)
+      })
+    })
+
+    $('#add_to_cart').on('click', function(e){
+      e.preventDefault()
+      if ($('input[name="item_options[warranty_configurations]"]').val() == ''){
+              swal({
+        title: "You haven't chosen a warranty!",
+        text: "A CAE Healthcare warranty is worth every penny",
+        type: 'info',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        cancelButtonText: 'No, thanks!',
+        confirmButtonText: 'Add a waranty!'
+      }).then((result) => {
+        console.log(result);
+        if (result.value) {
+          $('#ft-warranty').css({opacity: 0, display: 'block', visibility: 'visible'}).animate({opacity: 1}, 200);
+          $('body').addClass('noscroll');
+        } else{$('#add_to_cart_form').submit()}
+      })
+    } else{$('#add_to_cart_form').submit()}
+    })
+
+
+    //Start Anthony code.
+    $('#openAddons').click(function(event){
+        event.preventDefault();
+        $('#ft-addons').css({opacity: 0, display: 'block', visibility: 'visible'}).animate({opacity: 1}, 200);
+        $('body').addClass('noscroll');
+    });
+
+    $('#closeAddons').click(function(event){
+        event.preventDefault();
+        $('#ft-addons').animate({opacity: 0}, 200, function(){
+            setTimeout(function(){$('#ft-addons').css("display","none");}, 200)
+            $('body').removeClass('noscroll');
+        });
+    });
+
+    $('#openWarranty').click(function(event){
+        event.preventDefault();
+        $('#ft-warranty').css({opacity: 0, display: 'block', visibility: 'visible'}).animate({opacity: 1}, 200);
+        $('body').addClass('noscroll');
+    });
+
+    $('#closeWarranty').click(function(event){
+        event.preventDefault();
+        $('#ft-warranty').animate({opacity: 0}, 200, function(){
+            setTimeout(function(){$('#ft-warranty').css("display","none");}, 200)
+            $('body').removeClass('noscroll');
+        });
+    });
+</script>
+</body>
+</html>
